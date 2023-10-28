@@ -6,7 +6,6 @@
  * GitHub: https://github.com/ChesterOfTheSemester/Execution-Timer
  */
 
-
 #ifndef H_EXEC_TIMER
 #define H_EXEC_TIMER
 
