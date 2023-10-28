@@ -13,11 +13,11 @@ int main()
 {
   execution_timer.test(0x01);
   for (int i=0; i<1000000; i++);
-  std::cout << "Completed in " << execution_timer.test(0x01) << "ms" << std::endl;
+  std::cout << "Completed in " << execution_timer.time(0x01) << "ms" << std::endl;
 
   execution_timer.test(0x02);
   for (int j=0; j<99999999; j++);
-  std::cout << "Completed in " << execution_timer.test(0x02) << "ms" << std::endl;
+  std::cout << "Completed in " << execution_timer.time(0x02) << "ms" << std::endl;
 
   return 0;
 }
