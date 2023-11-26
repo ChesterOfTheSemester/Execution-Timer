@@ -27,7 +27,7 @@ int main()
 ## Parameters and return value
 A unique `uuid` for each timer is necessary for assigning timespans
 ```cpp
-long long time (int uuid = 0)
+long long time (int uuid = 0);
 ```
 
 `int uuid` A unique identifier is needed for each timer to store the timelapse values
