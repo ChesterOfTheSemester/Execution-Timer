@@ -1,5 +1,5 @@
 # Execution Timer 1.0
-This C++ script lets you do multiple execution timings.
+This C++ script lets you do multiple execution timings. 
 
 ## Usage Example
 To run a full execution timing, `time` should be called twice. First to define the start-time and later again to calculate the completion-time. It will be reset and be ready for re-use when it is called again.
