@@ -30,6 +30,4 @@ A unique `uuid` for each timer is necessary for assigning timespans
 long long time (int uuid = 0);
 ```
 
-`int uuid` A unique identifier is needed for each timer to store the timelapse values
-
 `@return (long long)` Returns time completion in milliseconds
